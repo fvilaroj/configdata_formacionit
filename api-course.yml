@@ -9,7 +9,7 @@ spring:
     username: root
     password: ftvila@2024
   jpa:
-    hibernate.ddl-auto: create
+    hibernate.ddl-auto: update
     generate-ddl: true
     show-sql: true
 
