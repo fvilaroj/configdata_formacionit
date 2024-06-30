@@ -10,11 +10,11 @@ spring:
         locator:
           enabled: true
       routes:
-        - id: msstudent
+        - id: route_student
           uri: lb://api-student
           predicates:
             - Path=/api/v1/students/**
-        - id: mscourse
+        - id: route_course
           uri: lb://api-course
           predicates:
             - Path=/api/v1/courses/**
