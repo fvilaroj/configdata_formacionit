@@ -35,7 +35,7 @@ eureka:
 management:
   endpoints:
     gateway:
-      enablesd: true
+      enabled: true
         
   endpoint:
     web:
