@@ -5,7 +5,9 @@ spring:
   application:
     name: gateway
   cloud:    
-    gateway:      
+    gateway:
+      default-filters: # Filtro por defecto de todas las requests realizadas al gateway
+        - name: LogFilter
       discovery:
         locator:
           enabled: true
